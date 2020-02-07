@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MyButton from './components/my_button'
+import MyButton from './my_button'
 class App extends Component {
   constructor(props) {
     super(props)

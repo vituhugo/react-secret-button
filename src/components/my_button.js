@@ -17,10 +17,6 @@ export default class MyButton extends React.Component {
         this.props.onMyButtonClick(this.state.mensagem_secreta);
     }
 
-    encrpyt() {
-
-    }
-
     render() {
         return (
             <button onClick={this.lidarComClick}>Sou um botão Secreto!</button>
